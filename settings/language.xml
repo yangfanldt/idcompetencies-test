@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <language version="1.0" htmlParse="true">
+;
+
+        <!-- misc -->
+        <item id="btnContinue">Continue...</item>
+        <item id="btnclose">Close</item>
+        <item id="btnHelp">Help me!</item>
+        <item id="btnAgreement">Most Important</item>
+        <item id="btnNeutral">Neutral</item>
+        <item id="btnDisagreement">Least Important</item>
+        <item id="btnTransfer">Submit data</item>
+        <item id="btnExit">Exit</item>
+        <item id="selectItem">Please select...</item>
+        
+        <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+        <item id="leaveSiteWarning">Your answers will be lost.</item>
+
+        <!-- HtmlQ only: In-App Back Button -->
+        <item id="backButton">Back</item>
+        <item id="fillInRequiredFields">Please fill in all required fields</item>
+
+        <!-- errors -->
+        <item id="errorHead">Error!</item>
+        <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+        <!-- welcome screen (leave blank to skip screen) -->
+        <item id="welcomeHead">Welcome!</item>
+        <item id="welcomeText">Dear Participant,{br}{br}You are being asked to be in a research study that is exploring how instructional designers prioritize their competencies based on their working experience. You are being invited because you are working in an instructional design related area with more than one year of experience. The potential participants for this study include instructional designers in higher education, consulting services, government, K–12, as well as those in the military. Your participation in this research is voluntary. If you choose to participate in this study, you will be asked to complete a Q sort survey that will take approximately 10-20 minutes to complete. {br}{br}{b}** Important Information **{/b}{br}If you agree with the consent form attached in the email, please click the button to continue.</item>
+
+        <!-- user login, only displayed if access is restricted (see config-file) -->
+        <item id="loginHead">Access Code</item>
+        <item id="loginText">Please enter the access code for this survey.</item>
+        <item id="loginFormHeader">Access Code</item>
+        <item id="loginPartIdText">Your name or survey id number</item>
+        <item id="loginNoInput">Please enter the access code.</item>
+        <item id="loginInvalidInput">Access code invalid</item>
+        <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+        <!-- introduction (leave blank to skip popup) -->
+        <item id="introHead">Introduction</item>
+        <item id="introText">This study is about instructional designers' prioritization of competencies. Please sort these statements based on your working experience.</item>
+
+        <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+        <item id="step1Head">Step 1 of 5</item>
+        <item id="step1Text">Read the following statements carefully and split them up into three piles: a pile for statements you think are the most important, a pile for cards you think are the least important, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or {b}press 1, 2, 3{/b} on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
+
+        <!-- step2: sorting (leave blank to skip popup) -->
+        <item id="step2Head">Step 2 of 5</item>
+        <item id="step2Text">Take the cards from the "Most Important"-pile and arrange them on right side of the score sheet.{br}{br}Next, take the cards from the "Least Important"-pile and arrange them on the left side of the score sheet. Follow this procedure for all cards in the "Most Important"- and "Least Important"-piles.{br}{br}Finally, take the "Neutral"-cards and arrange them in the remaining open boxes of the score sheet.</item>
+        <item id="step2CondOfInstruc">Sort the cards according to your working experience related to instructional design.</item>
+        <item id="step2TextSizeLabel">Text</item>
+        
+
+        <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+        <item id="step3Head">Step 3 of 5</item>
+        <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and swap card positions if desired.</item>
+        <item id="step3CondOfInstruc">Sort the cards according to your working experience related to instructional design.</item>
+
+        <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+        <item id="step4Head">Step 4 of 5</item>
+        <item id="step4Text">Please explain why you think the following statements are the most important("+3") or least important("-3").</item>
+
+        <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+        <item id="step5Head">Step 5 of 5</item>
+        <item id="step5Text">Finally, please answer the following questions regarding your background.</item>
+
+        <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+        <item id="transferHead">Submit Data</item>
+        <item id="transferText">You've finished the survey. Please submit your data now.</item>
+        <item id="transferFailed">Data submission failed. Please try again.</item>
+        <item id="transferOk">Thank you for taking this survey!{br}{br}Your responses have been recorded. You can now close your browser window.</item>   
+   </language>
